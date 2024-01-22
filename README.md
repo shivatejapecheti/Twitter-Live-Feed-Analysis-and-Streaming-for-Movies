@@ -33,3 +33,27 @@ The Movie Tweet Analysis project involves the following key technologies and lib
 ### Visualization:
 
 + MongoDB Charts: MongoDB Charts is utilized for the creation of visualizations providing insights into tweet distribution, user engagement, and sentiment about movies.
+
+## Project Components
+
+## Prerequisites:
+
++ Ensure you have the necessary Python packages installed (Tweepy, TextBlob, PyMongo, etc.).
++ Set up a Twitter Developer Account and obtain API credentials.
+
+Twitter API Authentication:
+
++ Create a Twitter Developer Account.
++ Create an application under your project and obtain authentication credentials.
++ Store the credentials in a config.ini file.
+  
+MongoDB Setup:
+
++ Create an account in MongoDB Atlas.
++ Create a database and configure network accessibility.
++ Obtain the MongoDB URI connection string.
+  
+## Running the Project:
+
+Execute the provided Python script.
+Access the MongoDB database and explore the collections (movie_TV and Temp_collection) for stored tweets.
