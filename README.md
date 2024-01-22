@@ -57,3 +57,16 @@ MongoDB Setup:
 
 Execute the provided Python script.
 Access the MongoDB database and explore the collections (movie_TV and Temp_collection) for stored tweets.
+
+## Data Visualization 
+[Click here](https://charts.mongodb.com/charts-project-0-bzacq/public/dashboards/a5e98a4b-2363-4e02-abe5-21694ddf0665)
+
+Explore different visualizations created using MongoDB Charts and optionally other tools:
+
++ Geo Scatter Map: Represents the geographic distribution of tweets about movies.
+
++ Geo Heatmap: Shows the density of tweets in different geographic areas.
+
++ Pie Chart: Illustrates the distribution of tweets per movie.
+
++ Period-based Visualization: Displays the temporal distribution of tweets about movies.
