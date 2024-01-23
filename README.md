@@ -4,6 +4,10 @@
  <div align="justify"> The Movie Tweet Analysis project utilizes various technologies and libraries to analyze public sentiment and opinions about movies using Twitter data. This comprehensive analysis involves data collection, storage in MongoDB Atlas, and visualization using various tools. The project leverages Python for scripting, Tweepy for Twitter API access, and MongoDB for data storage and retrieval. </div>
 
 ## Overview
+
+![visualization](https://github.com/shivatejapecheti/Twitter-Live-Feed-Analysis-and-Streaming-for-Movies/assets/126412107/0c1eafb8-8920-4ca4-a766-aba1e8b150a8)
+
+
 The Movie Tweet Analysis project involves the following key technologies and libraries:
 
 ### Data Collection:
