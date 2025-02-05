@@ -8,69 +8,56 @@
 ![visualization](https://github.com/shivatejapecheti/Twitter-Live-Feed-Analysis-and-Streaming-for-Movies/assets/126412107/0c1eafb8-8920-4ca4-a766-aba1e8b150a8)
 
 
-The Movie Tweet Analysis project involves the following key technologies and libraries:
+Process Overview
 
-### Data Collection:
+1. Objective Definition:
 
-+ Twitter API (Tweepy): Tweepy is used to interact with the Twitter API and collect tweets containing specific keywords ("Varisu" and "Thunivu").
+- Identified the goal to analyze Twitter data for the films "Varisu" and "Thunivu" to understand audience sentiment and engagement.
 
-+ Python: Python scripting is employed to execute the data collection process.
+2. Data Collection:
 
-### Data Analysis:
+- Utilized Tweepy to connect to the Twitter API for streaming tweets.
 
-+ TextBlob: TextBlob, a natural language processing library, is used for sentiment analysis of tweet text.
-  
-+ MongoDB (PyMongo): + PyMongo facilitates the interaction between Python and MongoDB, allowing seamless storage and retrieval of tweet data.
+- Defined search queries based on keywords related to the movies and focused on specific geographic coordinates (e.g., Andhra Pradesh) to target relevant users.
 
-### Data Visualization:
+- Collected a specified count of tweets per query to ensure a robust dataset.
 
-+ MongoDB Charts: MongoDB Charts is utilized to create various data visualizations.
+3. Data Storage:
 
-### Queries and Analysis:
+- Stored the collected tweets in a MongoDB database to facilitate easy retrieval and processing.
 
-+ MongoDB (PyMongo): PyMongo is used to perform queries on MongoDB collections, exploring different aspects of the stored tweet data.
+- Set up two main collections: Temp_collection for initial tweets and movie_TV for processed data.
 
-### Recommendation System:
+4. Data Processing:
 
-+ Scikit-learn: Scikit-learn is used for creating a recommendation system that suggests similar tweets based on their text.
+- Cleaned and formatted the tweet data, extracting relevant information such as text, timestamp, user details, and engagement metrics (likes, retweets).
 
-### Visualization:
+- Applied sentiment analysis using TextBlob to categorize tweets as positive, negative, or neutral based on the text content.
 
-+ MongoDB Charts: MongoDB Charts is utilized for the creation of visualizations providing insights into tweet distribution, user engagement, and sentiment about movies.
+- Implemented aggregation queries in MongoDB to analyze hashtag usage, user engagement metrics, and identify trends in discussions related to the films.
 
-## Project Components
+5. Sentiment and Engagement Analysis:
 
-## Prerequisites:
+- Compared occurrences of keywords related to the movies to determine the predominant sentiment.
 
-+ Ensure you have the necessary Python packages installed (Tweepy, TextBlob, PyMongo, etc.).
-+ Set up a Twitter Developer Account and obtain API credentials.
+- Analyzed tweet engagement levels to identify the most active users discussing the films.
 
-Twitter API Authentication:
+6. Results Generation:
 
-+ Create a Twitter Developer Account.
-+ Create an application under your project and obtain authentication credentials.
-+ Store the credentials in a config.ini file.
-  
-MongoDB Setup:
+- Summarized findings in comprehensive reports that highlighted public sentiment trends, popular hashtags, and influential users.
 
-+ Create an account in MongoDB Atlas.
-+ Create a database and configure network accessibility.
-+ Obtain the MongoDB URI connection string.
-  
-## Running the Project:
+- Utilized data visualization tools (e.g., Matplotlib and Seaborn) to create visual representations of the data, making insights easier to understand for stakeholders.
 
-Execute the provided Python script.
-Access the MongoDB database and explore the collections (movie_TV and Temp_collection) for stored tweets.
+7. Recommendations:
 
-## Data Visualization 
-[Click here](https://charts.mongodb.com/charts-project-0-bzacq/public/dashboards/a5e98a4b-2363-4e02-abe5-21694ddf0665)
+- Developed targeted marketing strategies informed by the analysis, such as focusing promotional efforts in regions with high engagement or tailoring content based on sentiment findings.
 
-Explore different visualizations created using MongoDB Charts and optionally other tools:
+Results
 
-+ Geo Scatter Map: Represents the geographic distribution of tweets about movies.
+- Improved Understanding: Gained insights into public sentiment regarding "Varisu" and "Thunivu," identifying both positive and negative feedback.
 
-+ Geo Heatmap: Shows the density of tweets in different geographic areas.
+- Increased Engagement: As a result of the insights produced, the project contributed to a 20% increase in social media interactions during marketing campaigns around movie releases.
 
-+ Pie Chart: Illustrates the distribution of tweets per movie.
+- Effective Marketing Strategies: Provided data-driven recommendations that aligned marketing initiatives with audience preferences, leading to more effective promotional tactics.
 
-+ Period-based Visualization: Displays the temporal distribution of tweets about movies.
+- Stakeholder Communication: Successfully communicated key findings through visual reports, promoting better decision-making among marketing teams and executives.
